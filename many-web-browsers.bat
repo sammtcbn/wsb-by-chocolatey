@@ -19,6 +19,11 @@ rem =======================================================
 rem Custom begin
 rem =======================================================
 
+call utils\chocolatey-pkg-ins.bat brave --pre
+call utils\chocolatey-pkg-ins.bat firefox
+call utils\chocolatey-pkg-ins.bat opera
+call utils\chocolatey-pkg-ins.bat microsoft-edge
+
 rem =======================================================
 rem Custom end
 rem =======================================================
