@@ -19,6 +19,7 @@ rem =======================================================
 rem Custom begin
 rem =======================================================
 
+call utils\chocolatey-pkg-ins.bat googlechrome
 call utils\chocolatey-pkg-ins.bat brave --pre
 call utils\chocolatey-pkg-ins.bat firefox
 call utils\chocolatey-pkg-ins.bat opera
