@@ -10,6 +10,7 @@ if %errorlevel% equ 0 (
   call utils\logw.bat start time - %date% %time%
 )
 
+call utils\command-prompt-encoding-utf8.bat
 call utils\wait-network-ready.bat
 
 rem chocolatey
