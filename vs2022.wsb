@@ -17,7 +17,7 @@
 </MappedFolders>
 
 <LogonCommand>
-   <Command>C:\wsb-by-chocolatey\vs2019.bat</Command>
+   <Command>C:\wsb-by-chocolatey\vs2022.bat</Command>
 </LogonCommand>
 
 </Configuration>

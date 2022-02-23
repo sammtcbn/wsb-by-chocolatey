@@ -28,8 +28,8 @@ call utils\chocolatey-pkg-ins.bat git.install
 call utils\chocolatey-pkg-ins.bat winmerge
 call utils\chocolatey-pkg-ins.bat jq
 
-call utils\chocolatey-pkg-ins.bat visualstudio2019community
-call utils\chocolatey-pkg-ins.bat visualstudio2019-workload-nativedesktop
+call utils\chocolatey-pkg-ins.bat visualstudio2022community
+call utils\chocolatey-pkg-ins.bat visualstudio2022-workload-nativedesktop
 
 rem =======================================================
 rem Custom end
