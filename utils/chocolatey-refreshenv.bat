@@ -9,8 +9,8 @@ if /I %ERRORLEVEL% NEQ 0 (
     if exist C:\ProgramData\chocolatey\bin\RefreshEnv.cmd (
         @rem file exists
         call C:\ProgramData\chocolatey\bin\RefreshEnv.cmd
-    ) else if exist "%currpath%\utils\RefreshEnv.cmd" (
-	    call "%currpath%\utils\RefreshEnv.cmd"
+    ) else if exist "%currpath%\RefreshEnv.cmd" (
+	    call "%currpath%\RefreshEnv.cmd"
 	) else (
         @rem file doesn't exist
 		echo refreshenv not found

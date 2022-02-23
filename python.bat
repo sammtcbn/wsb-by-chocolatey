@@ -28,10 +28,15 @@ call utils\chocolatey-pkg-ins.bat git.install
 call utils\chocolatey-pkg-ins.bat winmerge
 call utils\chocolatey-pkg-ins.bat jq
 
-call utils\chocolatey-pkg-ins.bat golang
+@rem python
+call utils\chocolatey-pkg-ins.bat python
+call utils\chocolatey-refreshenv.bat
+call utils\python-pip-upgrade.bat
+
+@rem python package
 
 call utils\chocolatey-pkg-ins.bat vscode
-call utils\chocolatey-pkg-ins.bat vscode-go
+call utils\chocolatey-pkg-ins.bat vscode-python
 
 rem =======================================================
 rem Custom end
@@ -45,3 +50,4 @@ if %errorlevel% equ 0 (
   call utils\generate-boot-ok.bat
   call utils\logw.bat end time - %date% %time%
 )
+
