@@ -1,0 +1,23 @@
+<Configuration>
+
+<MappedFolders>
+
+   <MappedFolder>
+      <HostFolder>C:\wsb-by-chocolatey</HostFolder>
+      <SandboxFolder>C:\wsb-by-chocolatey</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+
+   <MappedFolder>
+      <HostFolder>C:\wsb-share</HostFolder>
+      <SandboxFolder>C:\wsb-share</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+   </MappedFolder>
+
+</MappedFolders>
+
+<LogonCommand>
+   <Command>C:\wsb-by-chocolatey\nodejs.bat</Command>
+</LogonCommand>
+
+</Configuration>
