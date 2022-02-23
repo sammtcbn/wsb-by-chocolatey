@@ -6,7 +6,8 @@ if /I %ERRORLEVEL% NEQ 0 (
     timeout /t 3	
 ) else (
     rem pip install --upgrade pip
-	pip install --upgrade pip --user
+	rem pip install --upgrade pip --user
+	python -m pip install --upgrade pip
 )
 
 :END
