@@ -126,6 +126,8 @@ rem call utils\cnircmd-volume-highest.bat
 rem call utils\nircmd-mute.bat
 
 rem misc
+call utils\chocolatey-pkg-ins.bat innosetup
+call utils\chocolatey-pkg-ins.bat advanced-installer
 call utils\chocolatey-pkg-ins.bat jq
 call utils\chocolatey-pkg-ins.bat bginfo
 call utils\bginfo-apply-setting.bat
