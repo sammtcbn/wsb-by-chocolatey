@@ -1,8 +1,8 @@
 @echo off
+set currpath=%~dp0
+if "%currpath:~-1%"=="\" set currpath=%currpath:~0,-1%
 
-SET SCRIPT_PATH=%~dp0
-
-SET SETTING_FILE="%SCRIPT_PATH%\bginfo-setting.bgi"
+SET SETTING_FILE="%currpath%\bginfo-setting.bgi"
 
 WHERE bginfo64
 if /I %ERRORLEVEL% NEQ 0 (
