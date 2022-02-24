@@ -20,24 +20,27 @@ rem =======================================================
 rem Custom begin
 rem =======================================================
 
-call utils\chocolatey-pkg-ins.bat 7zip
-call utils\chocolatey-pkg-ins.bat notepadplusplus
-call utils\chocolatey-pkg-ins.bat googlechrome
-
+rem cvs
 call utils\chocolatey-pkg-ins.bat git.install
+
+rem compare
 call utils\chocolatey-pkg-ins.bat winmerge
-call utils\chocolatey-pkg-ins.bat jq
+
+rem compress
+call utils\chocolatey-pkg-ins.bat 7zip
 
 rem terminal
 call utils\chocolatey-pkg-ins.bat microsoft-windows-terminal --pre
 
 rem editor
+call utils\chocolatey-pkg-ins.bat notepadplusplus
 call utils\chocolatey-pkg-ins.bat libreoffice
 call utils\chocolatey-pkg-ins.bat adobereader
 
 rem web browser
-call utils\chocolatey-pkg-ins.bat brave --pre
+call utils\chocolatey-pkg-ins.bat googlechrome
 call utils\chocolatey-pkg-ins.bat firefox
+call utils\chocolatey-pkg-ins.bat brave --pre
 call utils\chocolatey-pkg-ins.bat opera
 call utils\chocolatey-pkg-ins.bat microsoft-edge
 
