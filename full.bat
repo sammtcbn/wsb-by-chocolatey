@@ -60,6 +60,9 @@ rem python package
 rem go
 call utils\chocolatey-pkg-ins.bat golang
 
+rem R
+call utils\chocolatey-pkg-ins.bat r.project
+
 rem kotlin
 call utils\chocolatey-pkg-ins.bat kotlinc
 
