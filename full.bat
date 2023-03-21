@@ -87,6 +87,9 @@ call utils\chocolatey-pkg-ins.bat mongodb --pre
 rem PostgreSQL
 call utils\chocolatey-pkg-ins.bat postgresql
 
+rem Redis
+call utils\chocolatey-pkg-ins.bat redis-desktop-manager
+
 rem database tools
 call utils\chocolatey-pkg-ins.bat robo3t
 call utils\chocolatey-pkg-ins.bat dbeaver
