@@ -128,8 +128,6 @@ rem entertainment
 call utils\chocolatey-pkg-ins.bat k-litecodecpackfull
 call utils\chocolatey-pkg-ins.bat vlc
 call utils\chocolatey-pkg-ins.bat nircmd
-rem call utils\cnircmd-volume-highest.bat
-rem call utils\nircmd-mute.bat
 
 rem misc
 call utils\chocolatey-pkg-ins.bat innosetup

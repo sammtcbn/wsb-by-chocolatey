@@ -27,8 +27,6 @@ call utils\chocolatey-pkg-ins.bat googlechrome
 call utils\chocolatey-pkg-ins.bat k-litecodecpackfull
 call utils\chocolatey-pkg-ins.bat vlc
 call utils\chocolatey-pkg-ins.bat nircmd
-call utils\cnircmd-volume-highest.bat
-rem call utils\nircmd-mute.bat
 
 rem =======================================================
 rem Custom end
